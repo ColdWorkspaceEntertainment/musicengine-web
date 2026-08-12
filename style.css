@@ -20,6 +20,17 @@ body {
     min-height: 100vh;
 }
 
+.announcement-bar {
+    background-color: #e50914;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 header {
     background: var(--surface-color);
     padding: 24px 48px;
@@ -135,4 +146,36 @@ footer {
     color: var(--text-muted);
     border-top: 1px solid var(--border-color);
     background: var(--surface-color);
+}
+
+.welcome-visual img {
+    max-width: 150px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.faq-section { 
+    margin-top: 30px; 
+}
+
+.faq-item {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background: #fcfcfc;
+}
+
+.faq-question {
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--accent-color);
+    user-select: none;
+}
+
+.faq-answer {
+    margin-top: 8px;
+    font-size: 14px;
+    color: var(--text-muted);
+    display: none;
 }
